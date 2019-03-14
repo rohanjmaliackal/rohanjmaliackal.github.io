@@ -1,0 +1,1027 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width: 200px) and (max-width: 1000px) {
+.display-none-big{
+	display:block !important;
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: #0a090a !important;
+}	
+}
+
+
+@media (min-width: 200px) and (max-width: 600px) {
+	
+/*--------------------------------index page section----------------------------*/
+.masonrytext {
+    height: auto;
+    float: left;
+    width: 92% !important;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 10px !important;
+    background-color: rgba(58, 42, 1,.50);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+}
+
+.buildingconstructiontext {
+	
+	padding: 25px 21px 21px 21px !important;
+}
+.align {
+    margin: 0 auto;
+    width: 85% !important;
+    display: block;
+}
+#jssor_1{
+	width: 320px !important;
+}
+.info-box-2 {
+    padding-top: 25%;
+    font-family: 'Orbitron', sans-serif;
+    max-width: 460px;
+}
+ul.path li a {
+    
+    font-size: 9px;
+    
+}	
+.titlelogo {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    margin-left: -100.5px;
+    display: block;
+    max-width: 200px;
+}
+.strip {
+    
+    height: 60px;
+}
+.circle1 h1:hover {
+   
+    font-size: 15px;
+    
+}
+.circle2 h1:hover {
+    
+    font-size: 15px;
+  
+}
+.display-none-big{
+	display:block !important;
+}
+.leftwrapper {
+    width: 100%;
+    height: 50%;
+    background: url(../images/left.jpg) no-repeat;
+	background-size: cover;
+    float: left;
+}
+.rightwrapper {
+    width: 100%;
+    height: 50%;
+    background: url(../images/right.jpg) no-repeat;
+	background-size: cover;
+    float: left;
+}
+.circle2 {
+	display: block;
+    max-width: 150px;
+    max-height: 150px;
+    margin: 50px auto;
+	
+}
+.circle1{
+	display: block;
+    margin: 100px auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+.indexfooterbar {
+    position: absolute;
+    background: #616b62;
+    bottom: 0;
+    padding: 12px 20px 0px;
+    /* display: block; */
+    right: 50%;
+    margin-right: -128px !important;
+	left:auto !important;
+	background-color: rgba(6,3,0,.00);
+}
+.centerstrip {
+	display: none;
+   	}
+
+/*------------------------------construction page css section-----------------------------------*/
+
+
+#containerconstruction {
+	width: 100%;
+    height: 100%;
+	/*background-image: url(../images/d8.jpg);*/
+	background-size: cover;
+	float: left;
+}
+
+.circlewrapper {
+    
+    width: 100%;
+    height: auto;
+    /* float: right; */
+    margin-top: 86px;
+    background-color: rgba( 133,99,37,.70);
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 6px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+
+
+}
+
+
+.circle3 {
+	width: 100%;
+    height: auto; 
+    border-radius:0px;
+    display: block;
+    float: left;
+    clear: both;
+    margin-bottom: 11px;
+    background-color: rgb(0,0,0);
+}
+
+.circle3 h4 {
+	text-align: center;
+    padding-top: 9px;
+    color: #ff8300;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 9px;
+    margin-bottom: 5px;
+    display: block;
+	
+}
+.circle3 h4:hover {
+	background-image:none;
+	font-size: 16px;
+}
+
+
+.circle4 {
+	width: 100%;
+    height: auto; 
+    border-radius:0px;
+    display: block;
+    float: left;
+    clear: both;
+    margin-bottom: 11px;
+    background-color: rgb(0,0,0);
+	margin-left: 0px;
+}
+
+.circle4 h4 {
+	text-align: center;
+    padding-top: 9px;
+    color: #ff8300;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 9px;
+    margin-bottom: 5px;
+    display: block;
+	
+}
+.circle4 h4:hover {
+	background-image:none;
+	font-size: 16px;
+}
+
+.circle5 {
+	width: 100%;
+    height: auto;
+    border-radius: 0px;
+    display: block;
+    float: left;
+    clear: both;
+    /* margin-bottom: 0px; */
+    background-color: rgb(0,0,0);
+    margin-left: 0px;
+}
+
+.circle5 h4 {
+	text-align: center;
+    padding-top: 9px;
+    color: #ff8300;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 9px;
+    margin-bottom: 5px;
+    display: block;
+	
+}
+.inte{
+    padding-left: 280px !important; 	
+}
+.interiorconstru{
+	height: 625px !important;
+}
+.circle5 h4:hover {
+	background-image:none;
+	font-size: 16px;
+}
+/*-----------------------------------building construction css section-----------------*/
+
+#containerbuildingconstruction {
+    width: 100%;
+    height: 100%;
+   
+	background-size: cover;
+}
+
+.buildingconstructiontext {
+	width: 100%;
+    height: auto;`
+	}
+/*----------------------------------interior construction css section------------------*/
+#containerinteriorconstruction {
+    width: 100%;
+    height: 100%;
+    /*background-image: url(../images/d6.jpg);*/
+	background-size: cover;
+}
+
+.interiorconstructiontext{
+	width: 100%;
+    height: auto;
+	}
+/*----------------------------------renovation css section--------------------------*/
+#containerrenovation {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/d1.jpg);
+	background-size: cover;
+}
+.renovationtext {
+	width: 90%;
+    height: auto;
+	}
+
+
+/*----------------------------------maintenance page css section--------------------*/
+
+
+
+#containermaintenance {
+    width: 100%;
+    height: 100%;
+   /* background-image: url(../images/d19.jpg);*/
+	background-size: cover;
+}
+
+.circlewrapper1 {
+    width: 100%;
+    height: 313px;
+    /* float: right; */
+    margin-top: 45px;
+    background-color: rgba( 133,99,37,.70);
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 6px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.circle6 {
+    width: 100%;
+    height: auto; 
+    border-radius:0px;
+    display: block;
+    float: left;
+    clear: both;
+    margin-bottom: 11px;
+    background-color: rgb(0,0,0);
+}	
+.circle6 h4 {
+    text-align: center;
+    padding-top: 9px;
+    color: #ff8300;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 9px;
+    margin-bottom: 5px;
+    display: block;
+}
+.circle6 h4:hover {
+	background-image:none;
+	font-size: 16px;
+}
+.circle7 {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    display: block;
+    float: left;
+	clear: both;
+    margin-bottom: 11px;
+    background-color: rgb(0,0,0);
+	margin-left: 0px;
+}
+.circle7 h4 {
+    text-align: center;
+    padding-top: 9px;
+    color: #ff8300;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 9px;
+	margin-bottom: 5px;
+    display: block;
+}
+.circle7 h4:hover {
+	background-image:none;
+	font-size: 16px;
+}
+.circle8 {
+	width: 100%;
+    height: auto;
+    border-radius: 0px;
+    display: block;
+    float: left;
+	clear: both;
+    margin-bottom: 11px;
+    background-color: rgb(0,0,0);
+	margin-left: 0px;
+}
+.circle8 h4 {
+	text-align: center;
+    padding-top: 9px;
+    color: #ff8300;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 9px;
+	margin-bottom: 5px;
+    display: block;
+}
+.circle8 h4:hover {
+	background-image:none;
+	font-size: 16px;
+}
+.circle9 {
+	width: 100%;
+    height: auto;
+    border-radius: 0px;
+    display: block;
+    float: left;
+	clear: both;
+    margin-bottom: 11px;
+    background-color: rgb(0,0,0);
+	margin-left: 0px;
+}
+
+.circle9 h4 {
+	text-align: center;
+    padding-top: 9px;
+    color: #ff8300;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 9px;
+	margin-bottom: 5px;
+    display: block;
+}
+.circle9 h4:hover {
+	background-image:none;
+	font-size: 16px;
+}
+.circle10 {
+	width: 100%;
+    height: auto;
+    border-radius: 0px;
+    display: block;
+    float: left;
+	clear: both;
+    margin-bottom: 11px;
+    background-color: rgb(0,0,0);
+	margin-left: 0px;
+}
+
+.circle10 h4 {
+	text-align: center;
+    padding-top: 9px;
+    color: #ff8300;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 9px;
+	margin-bottom: 5px;
+    display: block;
+}
+.circle10 h4:hover {
+	background-image:none;
+	font-size: 16px;
+}
+.circle11 {
+	width: 100%;
+    height: auto;
+    border-radius: 0px;
+    display: block;
+    float: left;
+	clear: both;
+    margin-bottom: 11px;
+    background-color: rgb(0,0,0);
+	margin-left: 0px;
+}
+
+.circle11 h4 {
+	text-align: center;
+    padding-top: 9px;
+    color: #ff8300;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 9px;
+	margin-bottom: 5px;
+    display: block;
+}
+.circle11 h4:hover {
+	background-image:none;
+	font-size: 16px;
+}
+
+/*----------------------------------masonry css section----------------------------------*/
+
+#containermasonry {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/d12.jpg);
+	background-size: cover;
+	float: left;
+}
+/*---------------------------------plumbing css section-----------------------------------*/
+#containerplumbing {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/d5.jpg);
+	background-size: cover;
+	float: left;
+}
+.plumbingtext {
+    height: auto;
+    float: left;
+    width: 83%;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 15px;
+    background-color: rgb(58, 42, 1);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+	margin-bottom: 30px;
+}
+/*-------------------------------electrical css section-------------------------------*/
+#containerelectrical {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/d4.jpg);
+	background-size: cover;
+	float: left;
+	
+}
+.electricaltext {
+    height: auto;
+    float: left;
+    width: 84%;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 15px;
+    background-color: rgb(58, 42, 1);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+}
+/*------------------------------carpentry css section----------------------------------*/
+#containercarpentry {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/d2.jpg);
+	background-size: cover;
+	float: left;
+}
+.carpentrytext {
+    height: auto;
+    float: left;
+    width: 85%;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 30px;
+    background-color: rgb(58, 42, 1);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+    margin-bottom: 30px !important;
+}
+/*-------------------painting css section-----------------------------*/
+#containerpainting {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/d11.jpg);
+	background-size: cover;
+	float: left;
+}
+.paintingtext {
+    height: auto;
+    float: left;
+    width: 84%;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 18px;
+    background-color: rgb(58, 42, 1);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+	margin-bottom: 50px;
+}
+/*---------------------------handyman css section------------------*/
+
+#containerhandyman {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/d3.jpg);
+	background-size: cover;
+	float: left;
+}
+.handymantext {
+    height: 100%;
+    float: left;
+    width: 86%;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 50px;
+    background-color: rgb(58, 42, 1);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+}
+/*---------------------------------aboout us page section---------------------------------*/
+#containerabout {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/about-us.jpg);
+	background-size: cover;
+	
+	
+}
+.abouttext {
+    height: auto;
+   
+    
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 40px;
+    background-color: rgba(58, 42, 1, 0.68);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 21px 70px 21px;
+}
+.footerbar {
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   	
+}
+/*---------------------------------our commitment section------------------------------*/
+#containercommitment {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/5.jpg);
+	background-size: cover;
+	float: left;
+}
+.commitmenttext {
+    height: auto;
+    float: left;
+    width: 92%;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 50px;
+    background-color: rgba(58, 42, 1, 0.78);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+}
+.footerbar {
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   	
+}
+/*---------------------------------our package section-----------------------------*/
+#containerpackage {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/6.jpg);
+	background-size: cover;
+	float: left;
+}
+.packagetext {
+    height: auto;
+    float: left;
+    width: 84%;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 50px;
+    background-color: rgb(58, 42, 1);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+}
+/*--------------------------------our location-----------------------------*/
+#containerlocation {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/3.jpg);
+	background-size: cover;
+	float: left;
+	}
+	
+.locationtext {
+    height: auto;
+    float: left;
+    width: 84%;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 50px;
+    background-color: rgb(58, 42, 1);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+}
+/*-----------------navigation menu section--------------------------*/
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+
+
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
+}
+@media (min-width:600px) and (max-width: 800px) {
+	.circle1 {
+    width: 170px !important;
+    height: 170px !important;
+    border-radius: 50%;
+    margin-top: 75% !important;
+    margin-left: 25% !important;
+    display: block;
+    background-color: rgba(255, 200, 0, 0.7);
+    background-image: url(../images/images/construction-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.circle2 {
+    width: 170px !important;
+    height: 170px !important;
+    border-radius: 50%;
+    margin-top: 75% !important;
+    margin-left: 25% !important;
+    display: block;
+    background-color: rgba(255, 200, 0, 0.7);
+    background-image: url(../images/images/maintenance-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}	
+}
+@media (min-width:800px) and (max-width: 1200px) {
+	.circle1 {
+    width: 170px !important;
+    height: 170px !important;
+    border-radius: 50%;
+    margin-top: 63% !important;
+    margin-left: 33% !important;
+    display: block;
+    background-color: rgba(255, 200, 0, 0.7);
+    background-image: url(../images/images/construction-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.circle2 {
+    width: 170px !important;
+    height: 170px !important;
+    border-radius: 50%;
+    margin-top: 63% !important;
+    margin-left: 33% !important;
+    display: block;
+    background-color: rgba(255, 200, 0, 0.7);
+    background-image: url(../images/images/maintenance-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}	
+}
+
+@media (min-width:600px) and (max-width: 1200px) {
+	
+   
+.abouttext {
+    height: auto;
+    float: left;
+    width: 90%;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 50px;
+    background-color: rgba(58, 42, 1,.50);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+}
+
+.commitmenttext {
+    height: auto;
+    float: left;
+    width: 90%;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 50px;
+    background-color: rgb(58, 42, 1);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+}
+
+.buildingconstructiontext {
+	width: 100%;
+    height: auto;`
+	}
+.interiorconstructiontext{
+	width: 90%;
+    height: auto;
+	}
+	
+	.renovationtext {
+	width: 90%;
+    height: auto;
+	}
+}
+
+                                                   /*--building-construction--*/
+
+@media (min-width: 1200px) and (max-width: 1560px) {
+.buildingc {
+       margin-top: 360px !important;
+	   width: 1000px	
+}
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+.buildingc {
+       margin-top: 360px !important;
+	   width: 900px !important;	
+}
+}
+
+@media (min-width: 886px) and (max-width: 1000px) {
+.buildingc {
+       margin-top: 393px !important;
+	   width: 700px !important;
+}
+}
+@media (min-width: 600px) and (max-width: 886px) {
+.buildingc {
+       margin-top: 372px !important;
+	   width: 596px !important;
+}
+}
+@media (min-width: 200px) and (max-width: 600px) {
+.buildingc {
+       margin-top: 218px !important;
+	   
+}
+}
+
+                                                                    /*--interior-design--*/
+																	
+@media (min-width: 1200px) and (max-width: 1560px) {
+.interiord {
+       margin-top: 45px !important;
+	   width: 1000px;	
+}
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+.interiord {
+       margin-top: 72px !important;
+	   width: 800px;	
+}
+}
+@media (min-width: 886px) and (max-width: 1000px) {
+.interiord {
+       margin-top: 89px !important;
+	   width: 800px !important;
+}
+}
+@media (min-width: 600px) and (max-width: 886px) {
+.interiord {
+       margin-top: 33px !important;
+	   width: 640px !important;
+}
+}	
+@media (min-width: 200px) and (max-width: 600px) {
+.interiord {
+       margin-top: 28px !important;
+	   width: 640px !important;
+}
+}
+                                               /*--construction page css section--*/
+											   
+@media (min-width: 1200px) and (max-width: 1560px) {
+.construction-circle {
+       margin-top: 360px !important;
+	   width: 1000px;	
+}
+}											   	
+@media (min-width: 1000px) and (max-width: 1200px) {
+.construction-circle {
+       margin-top: 348px !important;
+	   width: 800px;	
+}
+}
+@media (min-width: 886px) and (max-width: 1000px) {
+.construction-circle {
+       margin-top: 383px !important;
+	   width: 800px !important;
+}
+}	
+@media (min-width: 600px) and (max-width: 886px) {
+.construction-circle {
+       margin-top: 338px !important;
+	   width: 640px !important;
+}
+}
+@media (min-width: 200px) and (max-width: 600px) {
+.construction-circle  {
+       margin-top: 148px !important;
+	   
+}
+}	
+
+                                                  /*--maintenance page css section--*/
+
+@media (min-width: 200px) and (max-width: 600px) {
+.maintenance-circle  {
+       margin-top: 78px !important;
+	   
+}
+}
+@media (min-width: 1200px) and (max-width: 1560px) {
+.maintenance-circle {
+       margin-top: 182px !important;
+	   width: 1000px;	
+}
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+.maintenance-circle {
+       margin-top: 165px !important;
+	   width: 1000px;	
+}
+.masonrytext {
+    
+    width: 55% !important;
+   }
+   .paintingtext {
+    
+    width: 55% !important;
+   }
+}
+@media (min-width: 886px) and (max-width: 1000px) {
+.maintenance-circle {
+       margin-top: 100px !important;
+	   max-width: 800px !important;
+}
+.circlewrapper1 {
+    width: 1017px;
+    height: 279px !important;
+}
+}
+@media (min-width: 600px) and (max-width: 886px) {
+.maintenance-circle {
+       margin-top: 100px !important;
+	   width: 640px !important;
+}
+.circlewrapper1 {
+    width: 1017px;
+    height: 279px !important;
+}
+}
+@media (min-width: 200px) and (max-width: 400px) {
+.footerbar {
+       display: none !important;
+}
+}
+@media (min-width: 200px) and (max-width: 1000px) {
+.phone {
+       display: none !important;
+}
+}
+@media (min-width:600px) and (max-width: 1000px) {
+
+.electricaltext {
+    height: auto;
+    float: left;
+    width: 75% !important;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 30px;
+    background-color: rgba(58, 42, 1,.50);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+}
+.paintingtext {
+	width: 75% !important;
+	margin-top: 30px !important;
+}
+.carpentrytext {
+	height: auto;
+	float: left;
+	width: 75% !important;
+	margin-left: 4%;
+	/* margin-right: 5%; */
+	margin-top: 30px;
+	background-color: rgba(58, 42, 1,.50);
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	padding: 4px 21px 21px 21px;
+}
+.masonrytext {
+    height: auto;
+    float: left;
+    width: 75% !important;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 10px !important;
+    background-color: rgba(58, 42, 1,.50);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+	
+}
+.handymantext {
+    height: auto;
+    float: left;
+    width: 55% !important;
+    margin-left: 4%;
+    /* margin-right: 5%; */
+    margin-top: 50px;
+    background-color: rgba(58, 42, 1,.50);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 21px 21px 21px;
+}
+}

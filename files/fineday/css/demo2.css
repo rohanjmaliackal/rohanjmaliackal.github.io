@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+                                                         <!--celebrity wedding page-->
+														   
+
+.parallaxcelebrity{
+    /* The image used */
+    background-image: url(../images/banner9.jpg); 
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}														   
+														   

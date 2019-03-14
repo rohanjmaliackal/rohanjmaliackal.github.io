@@ -1,0 +1,588 @@
+<?php
+session_start();
+?><!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Services</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+  <script src="js/bootstrap.js" type="text/javascript"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+  
+   <!-- Web Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  
+  <link rel="icon" type="image/png" sizes="" href="img/fav.png">
+  
+  <style>
+.top-links p{
+    font-size: 10px;
+} 
+.our-ways h2{
+	margin: 0 auto;	
+	max-width: 360px;
+	padding-top: 30px;
+	display: block
+	color:#000;	
+	
+}
+.image-wrapper-owt {
+    background: url(img/office.jpg) no-repeat center;
+    min-height: 3010px;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+    filter: alpha(opacity=50);
+    max-width: 1600px;
+	margin-top: -20px;
+}
+a:hover, a:focus {
+    color: #059610;
+    text-decoration: none;
+}
+a {
+   color: #60ba47;	
+}
+.botm-line-two{
+    height: 3px;
+    width: 100px;
+    background: #14D70F;
+    
+    border: 0;
+    margin: 10px 10px 0px 0;
+}
+  </style>
+  
+ 
+  
+</head>
+
+
+ 
+			
+<body>
+
+<div class="top-links">
+  <div class="container-fluid">
+   <div class="row">
+   
+    <div class="top-position">
+      
+     <div class="col-md-6">
+      <i class="fa fa-map-marker" aria-hidden="true" style="float:left; margin-right:10px;"></i><p>Sreerudra Ayurveda Multi Speciality Hospital Alappuzha</p>
+     </div>
+     
+     <div class="col-md-3">
+      <i class="fa fa-envelope-o" aria-hidden="true" style="float:left; margin-right:10px;"></i><p>sreerudraayurvedahospitalalpy@gmail.com</p>
+     </div>           
+     
+     <div class="col-md-3">
+      <i class="fa fa-phone" aria-hidden="true" style="float:left; margin-right:10px; margin-left:32px;"></i><p>+91 477 2266778, +91 9847948218, +91 8848999404</p>
+     </div>             
+     
+     
+       
+     </div>
+     
+   </div>
+  </div>
+  
+</div>
+                                                                       
+                                                    <!--navbar-->                                                
+                                                                         
+
+<nav class="navbar navbar-default sha">
+  <div class="container-fluid">
+    <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+           </button>
+      <a class="navbar-brand" href="index.php"><img src="img/2017-07-20.png" class="img-responsive"></a>
+    </div>
+   <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right navbar-alter">
+      <li class="active"><a href="index.php" class="cmn-t-underline">HOME</a></li>
+      <li><a href="ayurveda.php" class="cmn-t-underline">AYURVEDA</a></li>
+      <li><a href="our-team.php" class="cmn-t-underline">OUR TEAM</a></li>
+      <li><a href="facilities.php" class="cmn-t-underline">FACILITIES</a></li>
+      
+      <li class="dropdown">
+        <a class="dropdown-toggle cmn-t-underline" data-toggle="dropdown" href="#">SERVICES
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        
+          <li ><a href="our-specialities.php">Our Specialities</a></li>
+          <li><a href="our-ways-of-treatment.php">Our Ways Of Treatment</a></li>
+          
+        </ul>
+      </li>
+      
+      <?php
+	 
+		
+	  if(isset($_SESSION["login_id"])){
+	  ?>
+       <li class="dropdown">
+        <a class="dropdown-toggle cmn-t-underline" data-toggle="dropdown" href="#">USER
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        
+          <li ><a href="view-booking.php">View Booking</a></li>
+          <li><a href="logout.php">Logout</a></li>
+          
+        </ul>
+      </li>
+      
+      <?php
+	  }else{
+		?>
+         <li><a href="login.php" class="cmn-t-underline" style="background-color: #28da24;color: white;border-radius: 10%;">LOGIN</a></li>
+        
+        <?php  
+	  }
+	  ?>
+     
+    </ul>
+   </div> 
+  </div>
+</nav>
+
+
+<div class="image-wrapper-owt">
+   
+     <div class="container-fluid">
+       <div class="row">
+       
+         <div class="inner-wrapper">
+            
+             <div class="our-ways">
+                    <h2 class="text-center">Our Ways of Treatment</h2>
+                    
+                     <center>
+                 <hr class="botm-line-two">
+                   </center>
+                    
+             </div>
+             
+             
+              
+                  <p class="text-justify ayur"><span style="font-weight:bold;">Ayurveda classifies diseases into two via: – Nija and Aganthu.</span><br><br>
+                  Aganthu rogas includes afflictions due to accidents and falls, fractures, injuries etc and those diseases caused by infections. Nijarogas on the other hand are caused by “vitiated doshas”. According to Ayurveda all the diseases are caused by one or all of the three doshas via VATHA, PITHA and KAPHA called the TRIDOSHAS.<br><br>
+                  
+                  
+                  Athuravritha deals the management of diseases by pacifying the vitiated doshas either by Sodhana or by Samana. In Samana therapy medicaments are given internally and externally to pacify doshas and in Sodhana therapy medicaments are given to eliminate enormously vitiated doshas from the body to bring back the normalcy i.e.: – wellbeing. Sodhana or elimination of the vitiated doshas is attained by five therapeutic modalities called the PANCHAKARMA CHIKITSA via<br><br>
+
+                  
+                   1 &nbsp; <span style="font-weight:bold;">VAMANA,</span><br>
+
+                   2 &nbsp; <span style="font-weight:bold;">VIRECHANA,</span><br>
+
+                   3 &nbsp; <span style="font-weight:bold;">NASYA,</span><br>
+
+                   4 &nbsp; <span style="font-weight:bold;">VASTHI,</span><br>
+
+                   5 &nbsp; <span style="font-weight:bold;">RAKTHA MOOKSHA</span>
+                   <br>
+                   <br>
+
+                   
+                   
+                   
+                   
+   <span style="font-weight:bold;">VAMANA:</span> <br>
+In this therapy elimination of doshas is obtained by therapeutic emesis with the administration of medicaments which are tailor made to suit the condition of the diseased and the disease. A strict regimen has to be followed for the procedure. It is effective in Kapha rogas especially sinusitis, bronchitis, allergic asthma, many neurological illnesses like bells palsy, hemiplegia including stroke, hypothyroidism, psychological diseases like depression, obsessive compulsive disorders and also in skin affections like psoriasis and allergic exfoliative dermatitis etc<br><br>
+
+
+   <span style="font-weight:bold;">VIRECHANA:</span><br> 
+Therapeutic purgation indicated for diseases due to Pitha vitiation extremely important in treatment of many skin diseases including psoriasis, rheumatoid arthritis and such type of autoimmune disorders like SLE, hyperthyroidism, many types of malignancy like pancreatic cancer, esophageal, stomach and colorectal cancers.<br><br>
+
+
+   <span style="font-weight:bold;">VASTHI:</span><br>
+This method involves therapeutic administration of oils and emulsions of oils, fats and decoctions of desired herbals, through anal route in an orderly fashion either for 8,15 or 30 days in accordance with the condition of the patient and the disease. This treatment is effective in all types of VATHA diseases like rheumatoid arthritis, spondylosis, and sciatica; inter vertebral disc prolapse, osteoarthritis, SLE, myasthenia gravis, scleroderma, Hashimoto’s thyroiditis, sjogren’s syndrome and other such autoimmune problems.<br><br>
+
+
+VASTHI is classified into ASTHAPANA, ANUVASANA and UTHARRAVASTHI according to the medicament, time of administration and the route of administration. In the Asthapana Vasthi the prime medicament used is usually a decoction along with other substances like honey, medicated ghee or oils and salts well mixed to an emulsion form. On the other hand, in Anuvasana usually medicated oils and ghee are used.<br>
+
+Utara Vasthi is the vasthi procedure done through the urogenital tract to cure diseases concerned to the urogenital system.<br><br>
+
+
+<span style="font-weight:bold;">NASYAM:</span><br>
+The therapeutic administration of oils or herbals through nose is termed as Nasyam. Nasyam is usually done in early morning on empty stomach or in evenings. It is indicated in diseases of head and neck like sinusitis, Paralysis, cervical spondylosis, peri arthritis etc.<br><br>
+
+
+<span style="font-weight:bold;">RAKTHA MOKSHA:</span><br>
+The classical therapy of bloodletting is followed strictly with certain regimens and is effectively used in many skin diseases, vasculitis, meningitis and diseases like rheumatoid arthritis, SLE, migraine etc.<br><br>
+
+
+Usually the PANCHAKARMA procedure is divided into Preparatory therapies, Panchakarma procedure and Post procedural methods. The preparatory therapies include many oilation and fomenting methods. Some of the methods which we traditionally follow are listed below—<br><br>
+
+
+<span style="font-weight:bold;">Udwartanam:</span><br>
+In this procedure, certain herbal powders are rubbed over the body in a peculiar way for about 60 minutes daily for a period of 7 to 14 days. Its highly recommended in Obesity, Diabetes, hypothyroidism and many other metabolic disorders.<br><br>
+
+
+<span style="font-weight:bold;">Podikizhi:</span><br>
+Chroornapinda sweda as its generally called involves massage with a bolus/Potali of dry medicated powders selected in accordance’s with condition of the patient and the disease.  This is done for one hour per day for 3 to 7 or 14 days and is indicated for stroke victims, osteoarthritis, rheumatoid arthritis, and muscular aches, pains of varied etiology.<br><br>
+
+
+
+<span style="font-weight:bold;">Abhyagam:</span><br>
+This is a special type of oil massage in which strokes are given according to the circulatory channels for nearly 45 minutes per day for 3, 5, 7 or 14 days.  It is useful for arthritis and other musculoskeletal problems and also in Sleeplessness, fatigue, general debility etc<br><br>
+
+
+<span style="font-weight:bold;">Different types of kizhies</span><br><br>
+
+<span style="font-weight:bold;">1) PATRAPOTALA SWEDAM (elakizhi):</span><br><br>
+
+Patrapotala Swedam or elakizhi means sudation using herbal leaves, effective in diseases related to bones, joints and nervous system.<br><br>
+
+Benefits:  Improves blood circulation, relieves tenderness and pain, improve blood circulation, improve muscle strength, improve skin complexion.<br><br>
+
+Indications:  Arthritis, migraine, spondylosis, neurological conditions, sports injuries, neurological disorders.<br><br>
+
+
+
+<span style="font-weight:bold;">2) JAMBEERA PINDA SWEDAM (Narangakizhi):</span><br>
+
+Jambeera pinda sweda prepared with lemon and many herbals and are made to a poultices and sedation is done with this.  This is done for 60 to 90mts daily for 7 to 14days.<br>
+indications:  Sciatica, Gout, cervical & lumber spondylosis, rheumatoid arthritis, sore muscles and cramps.<br><br>
+
+
+<span style="font-weight:bold;">3)  VALUKA SWEDAM:</span><br>
+
+This is dry therapeutic measure and can be done locally on a specific part.  It relives pain and inflammation; it is indicated in sandhigatha vatha and Amavatha.<br><br>
+
+
+<span style="font-weight:bold;">4) DHANYAKIZHI:</span><br>
+Dhanyakizhi or Dhanyapinda Swedam means sudation using herbals and powdered herbals etc. Effective in disease related to bone, joints, and nervous system:<br><br><br>
+
+
+
+<span style="font-weight:bold;">SIROVASTHI:</span><br>
+This treatment is highly effective for facial palsy, hemiplegia, hemiparasis, lesions of central nervous system, migraine and headaches of various etiology, insomnia, anxiety, depression and other psychiatric conditions, autism spectrum disorders, dryness of nostrils, mouth and throat, trigeminal neuralgia etc. In this treatment process tailor made, warm herbal oils are held on the head for 15 to 60m per day for a period of 5,7 or 14 days according to the patient’s conditions.<br><br>
+
+
+<span style="font-weight:bold;">KADI VASTHI:</span><br>
+Kadivasti is an Ayurvedic treatment in which specially prepared warm medicated oil is hold for about 30 minutes within a boundary made of herbal paste over the lower back.  This is a unique herbal treatment for spinal disorders back pain, lumbar spondylosis, degenerative inter vertebral disc prolapse, sciatica etc.<br><br>
+
+
+<span style="font-weight:bold;">PICHU:</span><br>
+Pichu is used as an effective method to treat the ailment of head, spine and disease of cranial nerves, arthritis and other joint disorders.  In this treatment medicated warm oil is applied on the local area which is affected.<br><br>
+
+
+<span style="font-weight:bold;">SIROPICHU:</span><br>
+It is a specialized Ayurvedic therapy in which a piece of cloth or cotton soaked with medicated oil is applied to the head for 30 to 45 minutes.<br><br>
+
+
+ <span style="font-weight:bold;">THALAM:</span><br>
+Thalam is a very old Ayurvedic treatment system in Kerala.  Medicated oil, Rasnadi Choornam, and medicated drug are retained over the head in sealed manner.<br><br>
+
+
+Thalam nourishes the brain and enhances the brain cells and is indicated in insomnia stress, tensions, hemiplegia, & rheumatic disorders.<br>
+
+<span style="font-weight:bold;">LAPANAM:</span><br>
+It is very effective on inflammatory condition and also good for skin diseases. It is the application of medicated herbal pastes locally over the affected parts. The thickness of the lepa depends on the need of particular conditions.  It has to be removed before the lepa dries.<br><br>
+
+
+<span style="font-weight:bold;">SIRADHARA:</span><br>
+“Siras’ means head and ‘dhara’ is a continuous flow. In this Ayurvedic treatment, a continuous flow of oil or any suitable concoction is gradually trickled on to the forehead of the patient.  Herbal oils, medicated milk, medicated butter milk etc., are usually used for dhara according to the disease and condition of the patient and it would be carried out for about 40mts in a day for a period of 7 to 21 days.  This treatment is very effective for people suffering with insomnia, loss of memory, headaches, migraine, parkin’s disease, mental tensions and certain skin disease.<br><br>
+
+
+
+<span style="font-weight:bold;">PIZHICHIL:</span><br>
+Pizhichil is a treatment of fantastic importance’s for many rheumatic conditions, diabetic neuropathy and other neuropathies, compressive mylopathies, multiple sclerosis, hemiplegia, sexual weakness, various types of muscular dystrophies etc.<br><br>
+
+Medicated oils suitable for the condition of the patient and the disease against the prescription, is poured along with gentle massage strictly under physician’s supervision. This pizhichil would generally lasts for 60 to 90mts per day for a period of 7 to 21 days.  The patient is advised to follow certain routines for these days to obtain maximum benefit from the pizhichil.<br><br>
+
+
+<span style="font-weight:bold;">NJAVARAKIZHI :</span><br>
+This is a Kerala Ayurvedic specialty treatment process in which medicated rice (Njavara) in the form of poultice tied in muslin bags are applied externally.  The poultice is dipped in a mixture of milk and brewed herbal decoctions and then applied all over the body.  Njavarakizhi is carried out with for about 60 minutes for a period of 7 to 14 days. It is highly rejuvenating and nourishing and is employed in neurological disorders, muscular dystrophies, and other debilitating conditions.<br><br>
+
+
+
+
+
+
+
+
+            
+                   
+                  </p>
+                  
+   
+               
+                 
+                 
+              
+            </div>
+         
+       </div>
+     </div>
+   
+</div>
+
+
+
+
+                                         <!--footer-->
+                                           
+                                           
+                                           
+<footer id="foot">
+   <div class="container-fluid">
+       <div class="row">
+       
+        <div class="footer-top">
+          <div class="col-lg-3 col-md-4 col-sm-4">
+             <div class="footer-logo">
+				<img src="img/footer-logo.png">
+			 </div>
+             
+             <br>
+
+			 <div class="footer-text">
+				<p class="text-justify">Sreerudra Ayurveda Hospital Sreerudra hospital
+                                        and research centre was established in  2002 in a 
+                                        humble way by Dr. K S Vishnu Namboothiri, MD (Ayurveda), PGDYT and MSc Yoga  (Senior Medical Officer, Alappuzha) member  of KUDALMANA  Family. Kudalmana family is one of the respectable families
+                                        in the Namboothiri community in Kerala, <a href="ayurveda.php">[…]</a></p>
+	         </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-sm-4">
+               <h4 style="color: #14D70F;">Services</h4>
+               <br>
+               <p>Arthritis</p>
+               <br>
+               <p>Cancer</p>
+               <br>
+               <p>Diabetes</p>
+               <br>
+               <p>Skin Complaints</p>
+               <br>
+               <p>Kidney Disorders</p>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-sm-4">
+               <h4 style="color: #14D70F;">Explore</h4>
+               <br>
+               <p><a href="ayurveda.php">AYURVEDA</a></p>
+               <br>
+               <p><a href="our-team.php">OUR TEAM</a></p>
+               <br>
+               <p><a href="facilities.php">FACILITIES</a></p>
+               <br>
+               <p><a href="our-specialities.php">SERVICES</a></p>
+               <br>
+               <p><a href="contact-us.php">CONTACT US</a></p>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-sm-4">
+          
+                <h4 style="color: #14D70F;">Working Hours</h4>
+                <br>
+                <p>24/7 service</p>
+                <br>
+                 
+                
+                <i class="fa fa-envelope-o" aria-hidden="true" style="float:left; margin-right:10px;"></i><p class="mailer">sreerudraayurvedahospitalalpy@gmail.com</p>
+                
+                <br>
+
+                 <i class="fa fa-phone" aria-hidden="true" style="float:left; margin-right:10px;"></i><p>+91 477 2266778, +91 9847948218, +91 8848999404</p>
+                <br>
+
+                <a href="https://www.facebook.com/sreerudraayurveda/" class="social" target="_blank">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                
+                <a href="https://twitter.com/sreerudra_ayur" class="social" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                
+                <a href="https://www.instagram.com/sreerudra_ayurveda/" class="social" target="_blank">
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+               <a href="https://www.tripadvisor.in/MemberProfile-a_uid.C06609EC3F07971DB61F54D003F301C6/" class="social" target="_blank"><img src="img/trip.png"></a>
+                
+          </div>
+         </div> 
+          
+       </div>
+   </div>
+   
+<div class="container-fluid">
+       <div class="row"> 
+          <div class="footer-bottom">
+          
+             <div class="col-md-10">
+             
+
+                <p style="padding-top: 20px;"> &nbsp; copyright&copy; 2017 sreerudra all rights reserved</p>
+             </div>
+             
+             <div class="col-md-2">
+             
+
+                <p style="padding-top: 20px;">powered by sientisolutions &nbsp;</p>
+             </div>
+             
+          </div>
+       </div>
+</div>
+          
+</footer>                                           
+                                           
+
+<div class="container-fluid">
+ <div class="row">
+ 
+  <div class="col-md-12">
+	<div class="mapper">
+		                
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3935.320065720284!2d76.34698249707274!3d9.480864884821269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0884916ecd8dbf%3A0xecd0b311a1e1dc90!2sKaithavana+Road%2C+Anantha+Narayanapuram%2C+Alappuzha%2C+Kerala+688009%2C+India!5e0!3m2!1sen!2sin!4v1505127485565" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                       					
+	</div>
+ </div> 
+ 
+ </div>
+</div>                                           
+                                           
+                                           
+
+
+                                           <!--smoothpagescroll-->
+
+
+<script>
+
+$(document).ready(function(){
+			// $fn.scrollSpeed(step, speed, easing);
+			jQuery.scrollSpeed(100, 600);
+});
+
+// Custom scrolling speed with jQuery
+// Source: github.com/ByNathan/jQuery.scrollSpeed
+// Version: 1.0.2
+
+(function($) {
+    
+    jQuery.scrollSpeed = function(step, speed, easing) {
+        
+        var $document = $(document),
+            $window = $(window),
+            $body = $('html, body'),
+            option = easing || 'default',
+            root = 0,
+            scroll = false,
+            scrollY,
+            scrollX,
+            view;
+            
+        if (window.navigator.msPointerEnabled)
+        
+            return false;
+            
+        $window.on('mousewheel DOMMouseScroll', function(e) {
+            
+            var deltaY = e.originalEvent.wheelDeltaY,
+                detail = e.originalEvent.detail;
+                scrollY = $document.height() > $window.height();
+                scrollX = $document.width() > $window.width();
+                scroll = true;
+            
+            if (scrollY) {
+                
+                view = $window.height();
+                    
+                if (deltaY < 0 || detail > 0)
+            
+                    root = (root + view) >= $document.height() ? root : root += step;
+                
+                if (deltaY > 0 || detail < 0)
+            
+                    root = root <= 0 ? 0 : root -= step;
+                
+                $body.stop().animate({
+            
+                    scrollTop: root
+                
+                }, speed, option, function() {
+            
+                    scroll = false;
+                
+                });
+            }
+            
+            if (scrollX) {
+                
+                view = $window.width();
+                    
+                if (deltaY < 0 || detail > 0)
+            
+                    root = (root + view) >= $document.width() ? root : root += step;
+                
+                if (deltaY > 0 || detail < 0)
+            
+                    root = root <= 0 ? 0 : root -= step;
+                
+                $body.stop().animate({
+            
+                    scrollLeft: root
+                
+                }, speed, option, function() {
+            
+                    scroll = false;
+                
+                });
+            }
+            
+            return false;
+            
+        }).on('scroll', function() {
+            
+            if (scrollY && !scroll) root = $window.scrollTop();
+            if (scrollX && !scroll) root = $window.scrollLeft();
+            
+        }).on('resize', function() {
+            
+            if (scrollY && !scroll) view = $window.height();
+            if (scrollX && !scroll) view = $window.width();
+            
+        });       
+    };
+    
+    jQuery.easing.default = function (x,t,b,c,d) {
+    
+        return -c * ((t=t/d-1)*t*t*t - 1) + b;
+    };
+    
+})(jQuery);
+
+</script>   
+
+
+  
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/59afdb1f4854b82732fee764/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 200px) and (max-width: 600px) {
+#first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3 {
+	color: #333 !important;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px !important;
+}
+.footer {
+    display: none;
+}
+
+.enquiry_box_love{
+	display:none;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, .15);
+}
+.ftr_inner_height{
+	height: 138px;
+    display: none;
+}
+.footer_hed {
+    font-family: 'Pacifico', cursive !important;
+    margin-top: 0px;
+    font-size: 25px;
+}
+.testimonial {
+    background: #2f2e2e;
+}
+.our_services {
+    background: #2f2e2e;
+}
+.disp_none_small{
+	display:none;
+}
+.banner_head_2{
+	display:none;
+}
+   
+.banner_head_1 {
+        margin-top: 73px;
+    font-size: 18px !important;
+    font-family: 'Lato', sans-serif;
+	 color: #bdbbbb!important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300 !important;
+}
+.carousel {
+    position: relative;
+
+}
+#first-slider .carousel .item {
+    min-height: 145px;
+    height: 100%;
+    width: 100%;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #e557d6;
+    background-color: #231f20;
+}
+.navbar-brand img{
+	width:80%;
+}
+.div_right{
+	background:none;
+
+}
+.navbar-nav {
+    margin: 0px -15px;
+    background: #242627;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #8c8c8c;
+	font-size: 16px;
+	    border-top: 1px solid #272425;
+    border-bottom: 1px solid #383435;
+}
+.enquiry{
+	display: none;
+}
+.enquiry2{
+	position: fixed;
+    bottom: 0px !important;
+    opacity: 0.68;
+    z-index: 1000;
+	top:auto !important;
+}
+}
+@media (min-width: 600px) and (max-width: 900px) {
+	#first-slider .carousel .item {
+    min-height: 324px;
+    height: 100%;
+    width: 100%;
+}
+.enquiry{
+	display: none;
+}
+.enquiry2{
+	position: fixed;
+    bottom: 0px !important;
+    left: 35%;
+    z-index: 1000;
+	top:auto !important;
+}
+}
+@media (min-width: 900px) and (max-width: 1600px){
+    .enquiry2{
+	display: none;	
+	}
+}

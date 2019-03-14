@@ -1,0 +1,38 @@
+<?php 
+ $username=$_POST['username'];
+ $passwords=$_POST['password'];
+ $page=$_POST['page'];
+$password=md5($passwords);
+
+require_once("connect.php");
+session_start();
+$query_select=mysqli_query($con,"select * from login where username='".$username."' and password='".$password."'");
+if(mysqli_fetch_row($query_select)>0){
+	$query_select=mysqli_query($con,"select * from login where username='".$username."' and password='".$password."'");	
+	if($row_result=mysqli_fetch_array($query_select)){
+		$login_id=$row_result['login_id'];
+		$_SESSION["login_id"]=$login_id;
+		$status=$row_result['status'];
+		if($status=="admin"){
+			header("location:admin/home.php");	
+		}else{
+			 if($page=="online-appointment"){
+				if(isset($_POST['specialist']) && isset($_POST['doctor']) && isset($_POST['date']) && isset($_POST['disease'])){
+					$specialist=$_POST['specialist'];
+					$doctor=$_POST['doctor'];
+					$date=$_POST['date'];
+					$disease=$_POST['disease'];
+					header("location:".$page.".php?specialist=$specialist && doctor=$doctor && date=$date && disease=$disease");
+				}else{
+					header("location:find-a-doctor.php");
+				}
+			}else{
+				header("location:".$page.".php");
+			}
+				
+		}
+	}
+}else{
+	header("location:login.php?error=error");	
+}
+?>

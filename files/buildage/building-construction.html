@@ -1,0 +1,561 @@
+<!DOCTYPE html >
+<html>
+<head>
+
+<title>Building Construction</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Default style sheet-->
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<!--Media style sheet-->
+<link rel="stylesheet" type="text/css" href="css/media.css" />
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+<link href='demo/css/simplelightbox.css' rel='stylesheet' type='text/css'>
+<link href='demo/css/demo.css' rel='stylesheet' type='text/css'>
+<!---bootstrap--->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="demo/js/simple-lightbox.js"></script>
+
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div id="containerbuildingconstruction">
+  
+  
+  
+  
+  <!--nav-->
+  
+<nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+       <div class="logo"> <a href="#"><img src="images/images/landing-page.png"></a> </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      
+      <li><a href="index.html"class="cmn-t-underline">HOME</a></li>
+        <li><a href="about-us.html"class="cmn-t-underline">ABOUT US</a></li>
+        <li><a href="our-commitment.html"class="cmn-t-underline">OUR COMMITMENT</a></li>
+            
+             <li class="dropdown"><a  href="#">PROJECT</a>
+          <ul class="dropdown-content">
+             <li><a href="ongoing-project.html">ONGOING PROJECT</a></li>
+             <li><a href="completed-project.html">COMPLETED PROJECT</a></li>
+             <li><a href="upcoming project.html">UPCOMING PROJECT</a></li>
+          </ul>
+         </li>
+            
+        <li><a href="contact-us.html"class="cmn-t-underline">CONTACT US</a></li>
+        </ul>
+       
+    </div>
+  </div>
+</nav>
+
+
+<!--nav-->
+
+
+<!----------------path section------------->
+
+
+<div class="pathmenu">
+ <ul class="path">
+ <li><a href="index.html"class="cmn-t-underline">HOME</a>&nbsp;&nbsp;<span>/</span></li>
+ <li><a href="construction.html"class="cmn-t-underline">CONSTRUCTION</a>&nbsp;&nbsp;<span>/</span></li>
+ <li><a class="active" href="building-construction.html">BUILDING CONSTRUCTION</a>&nbsp;&nbsp;<span>/</span></li>
+ <li><a href="interior-design.html"class="cmn-t-underline">INTERIOR DESIGN</a>&nbsp;&nbsp;<span>/</span></li>
+ <li><a href="renovation.html"class="cmn-t-underline">RENOVATION</a></li>
+ </ul>
+</div>
+
+
+
+   
+   
+   
+   
+  
+   
+   
+   
+ 
+
+
+    
+    	
+    
+    <!----------------------------circlesection---------------------------->
+
+<div class="circlewrapper buildingc">
+ <a href="#" onclick="smoothScroll(document.getElementById('offers'))"><div class="circle3">
+    <h4>OFFERS</h4>
+ </div></a>
+ <a href="#" onclick="smoothScroll(document.getElementById('gallery'))"><div class="circle4">
+   <h4>GALLERY</h4>
+ </div></a>
+ <a href="#" onclick="smoothScroll(document.getElementById('servicesbuild'))"><div class="circle5">
+  <h4>SERVICES</h4>
+  </div></a>
+</div>
+    
+ <script>
+  
+    window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    // start scrolling
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
+
+</script>        
+   
+</div>
+
+
+
+
+
+
+<div class="buildingconstructiontext">
+   <h1 class="head text-center">BUILDING CONSTRUCTION</h1>
+<p class="align text-justify">Building construction is the most important task of all. There are tons of diverse materials available for you to choose from. Even in the case of wood, there are many verities. It will be better to consult an expert, before blindly selecting any building material. You should consider the quality of material, quantity, durability, style, availability, and above all consider your budget. Our experts can guide you to select a suitable material for the construction process. You can also set a time frame, so that the work will be completed according to your plan. We only use high quality materials and highly skilled technicians to get the job done. Different and intricate processes like plumbing, wiring, flooring, furnishing, and roofing need to be completed as a part of building construction. If you seek our support, you can relive from all these tensions. Everything will be up and running whenever you desire.</p>
+   </div>
+   
+   
+   
+    
+      
+       
+       <!-- PRICING TABLE STYLE 1-->
+    <h1 class="head text-center">OFFERS</h1>
+        <div class="container-fluid dark-yellow" id="offers">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12 float-shadow"> 
+                       
+                    <div class="price_table_container future-image">
+                        <div class="price_table_heading">Basic</div>
+                        
+         
+                        <div class="price_table_body">
+             
+                           <div class="price_table_row cost warning-bg"><strong>₹&nbsp;1900</strong><span>*</span><br>
+                            <h5 class="text-center">per sqft</h5>
+                           <h4>Area:1000&nbsp;to&nbsp;1800sqft</h4></div>
+                            
+                           
+                          
+                            <div class="price_table_row glyphicon glyphicon-picture">&nbsp;<span class="orbit">DESIGN</span></div>
+                            
+                            
+                            <div class="price_table_row">Client Meeting</div>
+                            <div class="price_table_row">Plan and layout</div>
+                            <div class="price_table_row">Exterior Design Views (3D)</div>
+                            <div class="price_table_row">Approval drawing</div>
+                            <div class="price_table_row">Elevation section and Detail drawing</div>
+                          
+                           
+                            <div class="price_table_row glyphicon glyphicon-circle-arrow-up">&nbsp;<span class="orbit">CONSTRUCTION</span></div>
+                            <div class="price_table_row">Foundation</div>  
+                            <div class="price_table_row">Brick work</div>  
+                            <div class="price_table_row">Plastering</div> 
+                            <div class="price_table_row">Plumbing,sanitation and fitting</div> 
+                            <div class="price_table_row">Electrical</div>
+                            <div class="price_table_row">Paint</div>
+                            <div class="price_table_row"></div>
+                            <div class="price_table_row"></div>
+                            <div class="price_table_row"></div>
+                            
+                                                                       
+                        </div>
+                        <a href="#" class="btn btn-warning btn-lg btn-block" data-toggle="modal" data-target="#myModal">CHOOSE PACKAGE</a>
+                    </div>
+                </div>
+                
+                
+                 <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">User Signup</h4>
+        </div>
+   <div class="modal-body">
+        
+    
+    <form>
+    <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Enter your firstname">
+    </div>
+     <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Enter your lastname">
+    </div>
+     <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Enter your place">
+    </div>
+     <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Enter mobile number">
+    </div>
+     <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Enter mobile number">
+    </div>
+    
+    <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    
+    <div class="form-group">
+      
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+   
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                
+                
+                
+                
+                
+        
+                <div class="col-md-3 col-sm-6 col-xs-12 float-shadow">
+                    <!--<div class="recommended"><strong><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> RECOMMENDED</strong></div>-->                              
+                    <div class="price_table_container future-image-two">
+                        <div class="price_table_heading">Standard</div>
+                        <div class="price_table_body">
+                        
+                            <div class="price_table_row cost primary-bg"><strong>₹&nbsp;2300</strong><span>*</span><br>
+                               <h5 class="text-center">per sqft</h5>
+                            <h4>Area:1800 &nbsp;to&nbsp;2500sqft</h4></div>
+                            <div class="price_table_row glyphicon glyphicon-picture">&nbsp;<span class="orbit">DESIGN</span></div>
+                            <div class="price_table_row">Client Meeting</div>
+                            <div class="price_table_row">Plan and layout</div>
+                            <div class="price_table_row">Exterior Design Views (3D)</div>
+                            <div class="price_table_row">Approval drawing</div>
+                            <div class="price_table_row">Elevation section and Detail drawing</div>
+            
+                            <div class="price_table_row glyphicon glyphicon-circle-arrow-up">&nbsp;<span class="orbit">CONSTRUCTION</span></div>
+                            <div class="price_table_row">Foundation</div>  
+                            <div class="price_table_row">Brick work</div>  
+                            <div class="price_table_row">Plastering</div> 
+                            <div class="price_table_row">Plumbing,sanitation and fitting</div> 
+                            <div class="price_table_row">Electrical</div>
+                            <div class="price_table_row">Paint</div> 
+                            <div class="price_table_row"></div>
+                            <div class="price_table_row"></div>
+                            <div class="price_table_row"></div>
+                                                          
+                        </div>
+                        <a href="#" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal">CHOOSE PACKAGE</a>
+                    </div>
+                </div>
+                
+                
+                
+                
+        
+                <div class="col-md-3 col-sm-6 col-xs-12 float-shadow">        
+                    <div class="price_table_container future-image-three">
+                        <div class="price_table_heading">Premium</div>
+                        <div class="price_table_body">
+                        
+                            <div class="price_table_row cost success-bg"><strong>₹&nbsp;2650</strong><span>*</span><br>
+                                <h5 class="text-center">per sqft</h5>
+                            <h4>Area:2500&nbsp;to&nbsp;3500sqft</h4></div>
+                            <div class="price_table_row glyphicon glyphicon-picture">&nbsp;<span class="orbit">DESIGN</span></div>
+                            <div class="price_table_row">Client Meeting</div>
+                            <div class="price_table_row">Plan and layout</div>
+                            <div class="price_table_row">Interior Design (3D)</div>
+                            <div class="price_table_row">Exterior Design Views (3D)</div>
+                            <div class="price_table_row">Approval drawing</div>
+                            <div class="price_table_row">Elevation section and Detail drawing</div>
+            
+                            <div class="price_table_row glyphicon glyphicon-circle-arrow-up">&nbsp;<span class="orbit">CONSTRUCTION</span></div>
+                            <div class="price_table_row">Foundation</div>  
+                            <div class="price_table_row">Brick work</div>  
+                            <div class="price_table_row">Plastering</div> 
+                            <div class="price_table_row">Plumbing,sanitation and fitting</div> 
+                            <div class="price_table_row">Electrical</div>
+                            <div class="price_table_row">Paint</div> 
+                            <div class="price_table_row">Interior Work</div>                                                 
+                        </div>
+                        <a href="#" class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">CHOOSE PACKAGE</a>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                
+        
+                <div class="col-md-3 col-sm-6 col-xs-12 float-shadow">        
+                    <div class="price_table_container future-image-four">
+                        <div class="price_table_heading">Luxury</div>
+                        <div class="price_table_body">
+                            <div class="price_table_row cost info-bg"><strong>₹&nbsp;3100</strong><span>*</span><br>
+                                <h5 class="text-center">per sqft</h5>
+                            <h4>Area:Above 3500sqft</h4></div>
+                            <div class="price_table_row glyphicon glyphicon-picture">&nbsp;<span class="orbit">DESIGN</span></div>
+                            <div class="price_table_row">Client Meeting</div>
+                            <div class="price_table_row">Plan and layout</div>
+                            <div class="price_table_row">Interior Design (3D)</div>
+                            <div class="price_table_row">Exterior Design Views (3D)</div>
+                            <div class="price_table_row">Approval drawing</div>
+                            <div class="price_table_row">Elevation section and Detail drawing</div>
+            
+                            <div class="price_table_row glyphicon glyphicon-circle-arrow-up">&nbsp;<span class="orbit">CONSTRUCTION</span></div>
+                            <div class="price_table_row">Foundation</div>  
+                            <div class="price_table_row">Brick work</div>  
+                            <div class="price_table_row">Plastering</div> 
+                            <div class="price_table_row">Plumbing,sanitation and fitting</div> 
+                            <div class="price_table_row">Electrical</div>
+                            <div class="price_table_row">Paint</div>
+                            <div class="price_table_row">Interior Work</div>                                           
+                        </div>
+                        <a href="#" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModal">CHOOSE PACKAGE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PRICING TABLE STYLE 1-->
+        
+        <!-- SPACER-->
+        <div class="spacer"></div>
+        <!-- SPACER--> 
+        
+        
+          
+   
+   
+ <div id="servicesbuild" class="interiorconstructiontext build">
+     <h1 class="head text-center">SERVICES</h1>
+     <div class="container serv">
+            <ul>
+              <li><h3 class="proj">Planning</h3></li>
+              <li><h3 class="proj">Designing</h3></li>
+              <li><h3 class="proj">MEP</h3></li>
+              <li><h3 class="proj">Civil Construction</h3></li>
+              <li><h3 class="proj">Turnkey Project</h3></li>
+            </ul>
+       </div>
+ <br>
+ <br>
+
+ <div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">Request a Quote</h2>
+  <div class="row">                                                                                     
+
+
+
+
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>&nbsp; First Floor Safa Square</p>
+      <p><span class="glyphicon glyphicon-phone"></span>&nbsp; S.R.M Road,Kaloor Kochi-682 018 Phone:+91 7561 811 188</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>&nbsp; Email:info@buildage.in</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ </div> 
+   
+     
+
+
+
+ 
+
+<div id="gallery" class="interiorconstructiontext yellow">
+     <h1 class="head text-center">OUR GALLERY</h1>
+       <div class="container">
+		
+		<div class="gallery">
+			<a href="demo/images_lightbox_gallery2/image1.jpg" class="big"><img src="demo/images_lightbox_gallery2/thumbs/thumb1.jpg" alt="" title="" /></a>
+			<a href="demo/images_lightbox_gallery2/image2.jpg"><img src="demo/images_lightbox_gallery2/thumbs/thumb2.jpg" alt="" title=""/></a>
+			<a href="demo/images_lightbox_gallery2/image3.jpg"><img src="demo/images_lightbox_gallery2/thumbs/thumb3.jpg" alt="" title=""/></a>
+			<a href="demo/images_lightbox_gallery2/image4.jpg"><img src="demo/images_lightbox_gallery2/thumbs/thumb4.jpg" alt="" title=""/></a>
+			<div class="clear"></div>
+
+			<a href="demo/images_lightbox_gallery2/image5.jpg"><img src="demo/images_lightbox_gallery2/thumbs/thumb5.jpg" alt="" title=""/></a>
+			<a href="demo/images_lightbox_gallery2/image6.jpg"><img src="demo/images_lightbox_gallery2/thumbs/thumb6.jpg" alt="" title=""/></a>
+			<a href="demo/images_lightbox_gallery2/image7.jpg" class="big"><img src="demo/images_lightbox_gallery2/thumbs/thumb7.jpg" alt="" title=""/></a>
+			<a href="demo/images_lightbox_gallery2/image8.jpg"><img src="demo/images_lightbox_gallery2/thumbs/thumb8.jpg" alt="" title=""/></a>
+			<div class="clear"></div>
+
+			<a href="demo/images_lightbox_gallery2/image9.jpg" class="big"><img src="demo/images_lightbox_gallery2/thumbs/thumb9.jpg" alt="" title=""/></a>
+			<a href="demo/images_lightbox_gallery2/image10.jpg"><img src="demo/images_lightbox_gallery2/thumbs/thumb10.jpg" alt="" title=""/></a>
+			<a href="demo/images_lightbox_gallery2/image11.jpg"><img src="demo/images_lightbox_gallery2/thumbs/thumb11.jpg" alt="" title=""/></a>
+			<a href="demo/images_lightbox_gallery2/image12.jpg"><img src="demo/images_lightbox_gallery2/thumbs/thumb12.jpg" alt="" title=""/></a>
+			<div class="clear"></div>
+
+		</div>
+		
+	</div>
+   </div>
+
+
+
+
+
+
+   
+   
+    <!----------------------------footersection------------------------------->
+    
+    
+  <div class="container-fluid footerbar">
+  
+  <div class="row privacy">
+  
+  
+     <div class="col-md-4">
+     
+     <h6 class=" ptext">&copy;2017 Buildage Corporation</h6>
+     
+     </div>
+     
+     <div class="col-md-4 phone">
+           
+           <div class="num"><!--<span class="glyphicon glyphicon-earphone"></span>--><strong>+917561811188&nbsp;&nbsp;(INDIA),&nbsp;&nbsp;&nbsp;+971504900357&nbsp;&nbsp;(UAE)</strong></div>
+            
+     </div>
+        
+   
+   
+       
+   
+    <div class="col-md-4">
+   
+      <div class="social">
+      <div class="logo1"> <a href="#"><img title="youtube" src="images/images/l5.png" alt="buildage"></a> </div>
+      <div class="logo1"> <a href="#"><img title="linkedin" src="images/images/l4.png" alt="buildage"></a> </div>
+      <div class="logo1"> <a href="#"><img title="twitter" src="images/images/l3.png" alt="buildage"></a> </div>
+      <div class="logo1"> <a href="#"><img title="mail" src="images/images/l2.png" alt="buildage"></a> </div>
+      <div class="logo1"> <a href="#"><img title="facebook" src="images/images/l1.png" alt="buildage"></a> </div>
+    </div>
+    
+    
+  </div>
+  
+  
+</div>
+</div>
+   
+
+<script>
+	$(function(){
+		var $gallery = $('.gallery a').simpleLightbox();
+
+		$gallery.on('show.simplelightbox', function(){
+			console.log('Requested for showing');
+		})
+		.on('shown.simplelightbox', function(){
+			console.log('Shown');
+		})
+		.on('close.simplelightbox', function(){
+			console.log('Requested for closing');
+		})
+		.on('closed.simplelightbox', function(){
+			console.log('Closed');
+		})
+		.on('change.simplelightbox', function(){
+			console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function(){
+			console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function(){
+			console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function(){
+			console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function(){
+			console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function(){
+			console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function(){
+			console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function(){
+			console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function(e){
+			console.log('No image found, go to the next/prev');
+			console.log(e);
+		});
+	});
+</script>
+
+
+
+</body>
+</html>

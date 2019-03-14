@@ -1,0 +1,36 @@
+<?php 
+$name=$_POST['name'];
+$email=$_POST['email'];
+$phone=$_POST['phone'];
+$passwords=$_POST['password'];
+$gender=$_POST['gender'];
+$page=$_POST['page'];
+$password=md5($passwords);
+
+require_once("connect.php");
+session_start();
+$query_select=mysqli_query($con,"select * from login where username='".$username."' and password='".$password."'");
+if(mysqli_fetch_row($query_select)>0){
+	header("location:register.php?error=error");	
+}else{
+	$query_select=mysqli_query($con,"insert into register(name,email,phone,password,gender) values('".$name."','".$email."','".$phone."','".$password."','".$gender."')");	
+	mysqli_query($con,"insert into login(username,password,status) values('".$email."','".$password."','user')");
+		$login_id=mysqli_insert_id($con);
+		$_SESSION["login_id"]=$login_id;
+	 		if($page=="online-appointment"){
+				if(isset($_POST['specialist']) && isset($_POST['doctor']) && isset($_POST['date']) && isset($_POST['disease'])){
+					$specialist=$_POST['specialist'];
+					$doctor=$_POST['doctor'];
+					$date=$_POST['date'];
+					$disease=$_POST['disease'];
+					header("location:".$page.".php?specialist=$specialist && doctor=$doctor && date=$date && disease=$disease");
+				}else{
+					header("location:find-a-doctor.php");
+				}
+			}else{
+				header("location:".$page.".php");
+			}
+				
+			
+}
+?>

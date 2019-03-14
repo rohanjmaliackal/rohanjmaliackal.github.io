@@ -1,0 +1,7 @@
+[22-Sep-2017 04:41:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'null
+' in /home/sienti/public_html/clients/sreerudraayurveda.com/ShijiPHP/FinalSreerudhra/Instamojo.php:119
+Stack trace:
+#0 /home/sienti/public_html/clients/sreerudraayurveda.com/ShijiPHP/FinalSreerudhra/Instamojo.php(290): Instamojo\Instamojo->api_call('POST', 'payment-request...', Array)
+#1 /home/sienti/public_html/clients/sreerudraayurveda.com/ShijiPHP/FinalSreerudhra/pay.php(29): Instamojo\Instamojo->paymentRequestCreate(Array)
+#2 {main}
+  thrown in /home/sienti/public_html/clients/sreerudraayurveda.com/ShijiPHP/FinalSreerudhra/Instamojo.php on line 119

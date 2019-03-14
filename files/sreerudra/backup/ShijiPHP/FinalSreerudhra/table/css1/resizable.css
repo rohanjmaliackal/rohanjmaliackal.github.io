@@ -1,0 +1,24 @@
+.resizable {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+.resizable td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.resizable th{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: green;
+}
+
+.resizable th.resizing {
+    cursor: col-resize;
+}
+

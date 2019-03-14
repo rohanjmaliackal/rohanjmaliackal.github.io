@@ -1,0 +1,13 @@
+.sortable th {
+    cursor: pointer;
+}
+
+.sortASC:after {
+  content: " △";
+  font-family: Arial, sans-serif;
+}
+
+.sortDESC:after {
+  content: " ▽";
+  font-family: Arial, sans-serif;
+}

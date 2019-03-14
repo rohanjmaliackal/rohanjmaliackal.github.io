@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>roots</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+  
+  
+  <!--pop image-->
+  <link rel="stylesheet" href="css/viewbox.css">
+    
+  <link rel="icon" type="image/png" sizes="" href="images/fav.png">
+    
+ 
+
+  
+  <style>
+  
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+  .thumbnail a>img, .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+	padding-bottom: 30px;
+}  
+.roo-photo{
+   font-family: 'Roboto', sans-serif;	
+   font-weight:700;
+   font-size: 100px;
+   color: #343434;
+   max-width: 500px;	
+}
+.ser{
+   
+   font-size: 40px;
+    	
+}
+  </style>
+  
+  
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+<div class="container">
+  <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.php">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact-us.html">Contact us</a>
+      </li>    
+    </ul>
+  </div> 
+  </div> 
+</nav>
+
+
+           <!--roots-->
+           
+            
+
+
+
+
+           
+           
+<div class="container-fluid">
+ <div class="row">
+  <div class="col-md-6">
+     <h1 class="roo-photo">Candid photography</h1> 
+  </div>
+  <div class="col-md-6">
+     <img src="images/bg.jpg" class="boxes">
+  </div>
+ </div>
+</div>
+
+
+<br>
+<br>
+    
+ 
+
+
+
+
+
+<div class="container">
+ <div class="row">
+  <div class="col-md-6">
+     <h1 class="ser">gallery</h1> 
+  </div>
+ </div>
+</div>  
+
+
+
+
+<div class="container">
+ <div class="row">
+ 
+   
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/163732034602 (2).jpg" class="thumbnail" title="1">
+						<img src="gallery/small787131548.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/2488500302 (3).jpg" class="thumbnail" title="2">
+						<img src="gallery/small1571420344.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/88605896402 (6).jpg" class="thumbnail" title="3">
+						<img src="gallery/small626759641.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/58609712603 (2).jpg" class="thumbnail" title="4">
+						<img src="gallery/small855488808.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/120530801504 (2).jpg" class="thumbnail" title="5">
+						<img src="gallery/small83305970.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/68161544505.jpg" class="thumbnail" title="6">
+						<img src="gallery/small1854881985.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/48104996005a.jpg" class="thumbnail" title="7">
+						<img src="gallery/small894381435.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/31457695710.jpg" class="thumbnail" title="8">
+						<img src="gallery/small743741767.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/127161523011a.jpg" class="thumbnail" title="9">
+						<img src="gallery/small747194728.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/121235663614.jpg" class="thumbnail" title="10">
+						<img src="gallery/small1597428995.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/164169762019.jpg" class="thumbnail" title="11">
+						<img src="gallery/small1024953504.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/192021299329cre.jpg" class="thumbnail" title="12">
+						<img src="gallery/small792412983.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/59713939350.jpg" class="thumbnail" title="13">
+						<img src="gallery/small206616878.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/100763847851.jpg" class="thumbnail" title="14">
+						<img src="gallery/small860189717.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/90152396453.jpg" class="thumbnail" title="15">
+						<img src="gallery/small1041679741.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/2068758695_MG_0920.JPG" class="thumbnail" title="16">
+						<img src="gallery/small1152515005.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/2033785365_MG_0939.JPG" class="thumbnail" title="17">
+						<img src="gallery/small1829380469.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                  
+ 
+                <div class="col-xs-6 col-md-3">
+					<a href="gallery/28920010_MG_0948.JPG" class="thumbnail" title="18">
+						<img src="gallery/small860390491.jpg" alt="" style="width:255px; height:176px;">
+					</a>
+				</div>
+                
+                                
+				
+				
+ </div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+
+<div class="footer">
+<br>
+
+<p class="text-center" style="color:#FFFFFF;"><a href="#">facebook</a>&nbsp;&nbsp;<a href="#">youtube</a>&nbsp;&nbsp;<a href="#">instagram</a></p>
+
+ <div class="container-fluid">
+   <div class="row">
+   
+   <div class="col-md-4">
+     <h1 class="roo2" style="color:#FFFFFF;">the roots</h1> 
+   </div>
+   
+    <div class="col-md-8 cont">
+    
+     <div><h4 class="text-center"> call:  +91 97 4749 4448, 98 4747 4848<br>
+
+       <span style="word-break:break-all">email: chanchalraj@hotmail.com</span></h4></div> 
+      
+    </div>
+   </div>
+  </div>
+  
+
+  
+  <div class="container-fluid tc">
+   <div class="row">
+     <div class="col-xs-6 col-sm-6 col-md-6">
+     <p style="color:#FFFFFF;">© 2018 all rights reserved to roots.biz</p>
+     </div>
+       
+     <div class="col-xs-6 col-sm-6 col-md-6 text-right">
+     <p style="color:#FFFFFF;">powered by sientisolutions</p>
+     </div>
+   </div>
+  </div>
+  
+</div>
+
+
+<!--pop-->
+
+<script src="js/jquery.viewbox.min.js"></script>
+	<script>
+		$(function(){
+			
+			$('.thumbnail').viewbox();
+			$('.thumbnail-2').viewbox();
+
+			(function(){
+				var vb = $('.popup-link').viewbox();
+				$('.popup-open-button').click(function(){
+					vb.trigger('viewbox.open');
+				});
+				$('.close-button').click(function(){
+					vb.trigger('viewbox.close');
+				});
+			})();
+			
+		});
+</script>
+    
+<!--pop--> 
+
+
+</body>
+</html>

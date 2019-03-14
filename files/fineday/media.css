@@ -1,0 +1,504 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media (min-width: 768px){
+
+.navbar-right .dropdown-menu {
+    right: -77px !important;
+    left: auto;
+}
+}
+@media (min-width: 768px) {
+.dropdown .dropdown-menu{
+    display: block; 
+  opacity:0;
+-webkit-transition: all 250ms ease-in;
+-moz-transition: all 250ms ease-in;
+-ms-transition: all 250ms ease-in;
+-o-transition: all 250ms ease-in;
+transition: all 250ms ease-in;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+}
+.dropdown-menu{
+      background-color: #ffddf0 !important;
+	  background: url(../images/favs.png);
+	  
+}
+@media (max-width: 768px) {
+	
+	
+}
+
+
+/*index page*/
+
+@media (min-width: 200px) and (max-width: 300px) {
+	#ptsection-three {
+       height: 450px !important;
+}
+}
+@media (min-width: 300px) and (max-width: 400px) {
+	#ptsection-three {
+       height: 542px !important;
+}
+}
+
+
+
+@media (min-width: 400px) and (max-width: 500px) {
+	#ptsection-three {
+       height: 650px !important;
+}
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+	#ptsection-three {
+       height: 750px !important;
+}
+}
+
+@media (min-width: 200px) and (max-width: 600px) {	
+	#jssor_1  {
+	width: 25%;
+	} 	
+	}
+	
+@media (min-width: 600px) and (max-width: 700px) {
+	#ptsection-three {
+       height: 880px !important;
+}
+}	
+@media (min-width: 700px) and (max-width: 800px) {
+	#ptsection-three {
+       height: 1050px !important;
+}
+}		
+	
+@media (min-width: 800px) and (max-width: 900px) {
+	#ptsection-three {
+       height: 1150px !important;
+}
+}		
+
+@media (min-width: 900px) and (max-width: 1000px) {
+	
+#ptsection-three {
+       height: 1250px !important;
+}
+#jssor_1  {
+	/*width: 50%;*/
+	} 	
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+#ptsection-three {
+       height: 1425px;
+        }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+#ptsection-three {
+       height: 1500px;
+        }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+#ptsection-three {
+       height: 1500px;
+        }
+
+#jssor_1  {
+	width: 100%;
+	} 	
+	}
+
+
+/*wedding films */
+
+
+@media (min-width: 200px) and (max-width: 767px) {
+
+.film3 {
+         height: 5000px !important;
+		 padding-top: 525px;
+		
+    }
+	
+	
+}
+@media (min-width: 768px) and (max-width: 990px) {
+
+.film3 {
+         height: 2730px !important;
+		 padding-top: 324px;
+    }
+	
+	
+}
+
+
+
+/*navbar global*/
+
+@media only screen and (max-width: 766px) {
+    .navbar-toggle  {
+         margin-top: 35px !important;
+    }
+}
+
+/*testimonials*/
+
+@media only screen and (max-width: 473px) {
+	
+    ul, ol {
+    margin-top: 0px;
+    margin-bottom: -65px !important;
+}	
+	
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+
+
+.celeb2 {
+    height: 440px !important;
+}
+
+}
+@media (min-width: 600px) and (max-width: 800px) {
+
+
+.celeb2 {
+    height: 590px !important;
+}
+
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+
+
+.celeb2 {
+    height: 700px !important;
+}
+
+}
+
+
+/*blog*/
+
+@media (min-width: 994px) and (max-width: 1150px) {
+
+
+.blog2 {
+    height: 355px !important;
+}
+
+}
+
+@media (min-width: 800px) and (max-width: 994px) {
+
+
+.blog2 {
+    height: 600px !important;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+
+
+.blog2 {
+    height: 650px !important;
+}
+
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+
+
+.blog2 {
+    height: 750px !important;
+}
+
+}
+@media (min-width: 200px) and (max-width: 593px) {
+
+
+.head {
+   
+}
+
+}
+@media (min-width: 200px) and (max-width: 600px) {
+
+.head{
+    	font-size:20px;
+}
+.title{
+     
+	 font-size:25px;	
+}
+}
+	               
+				                                                  /* index*/
+	
+	
+@media (min-width: 344px) and (max-width: 400px) {
+.logoimage {
+  max-width: 250px;
+  width: 100%;
+  padding-top: 20px;
+}
+	
+	}
+@media (min-width: 294px) and (max-width: 344px) {
+.logoimage {
+  max-width: 200px;
+  width: 100%;
+  padding-top: 20px;
+}
+	
+}
+@media (min-width: 200px) and (max-width: 294px) {
+.logoimage {
+  max-width: 150px;
+  width: 100%;
+  padding-top: 20px;
+}
+	
+}
+@media (min-width: 200px) and (max-width: 1000px) {
+#quote-carousel .carousel-control {
+   display: none;
+}	
+}
+
+                                                        /*wedding gallery*/
+
+@media (min-width: 200px) and (max-width: 600px) {
+	.parallax_celebrity4{
+    background: url(../images/sruthi-banner-small.jpg) no-repeat center;
+    min-height: 630px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	 	
+}
+	.parallax_celebrity7{
+   	background: url(../images/banner-lijo-small.jpg) no-repeat center;
+    min-height: 630px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;		
+}
+.film1{
+	background: url(../images/bannerwedding-small.jpg) repeat center center !important;
+}
+.parallax_blog {
+    background: url(../images/banner15-small.jpg) no-repeat center;
+}
+#gallery3{
+	height: 2650px !important;
+}
+.parallax {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url(../images/banner2-small.jpg) repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+html, body{
+  background-color: transparent !important;
+}
+
+.parallax2 {
+    background: url(../images/banner_small.jpg) no-repeat center !important;
+    min-height: 630px;
+    background-attachment: fixed !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+#ptsection-two{
+    /*display: none;*/
+	
+	z-index: 0;
+}
+.logo2{
+	display: none;
+}
+.abouttextwithout{
+	padding-top: 260px;
+	padding-left: 15px;
+}
+.never{
+	display: none !important;
+}
+
+.parallax3 {
+    background:url(../images/banner3-small.jpg) no-repeat center;
+    min-height: 630px;
+    background-attachment: fixed !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxabout1_celebrity_wedding {
+    background:url(../images/banner9-small.jpg) no-repeat center;
+    min-height: 630px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}	
+.parallax_wedding_album {
+	background:url(../images/banner10-small.jpg) no-repeat center;
+    min-height: 630px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+.parallax_candid_album {
+	background:url(../images/banner11-small.jpg) no-repeat center;
+    min-height: 630px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+.parallax_kerala_album{
+	background:url(../images/banner12-small.jpg) no-repeat center;
+    min-height: 630px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax_candid_wedding_photography{
+	background: url(../images/banner13-small.jpg) no-repeat center;
+    min-height: 630px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+.parallax_post_wedding_photography {
+    background: url(../images/banner14-small.jpg) no-repeat center;
+    min-height: 630px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}	
+.parallaxabout1 {
+	  /* The image used */
+    background: url(../images/banner4-small.jpg) no-repeat center ;
+
+    /* Set a specific height */
+    min-height: 630px;
+	
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+.parallaxabout2 {
+	  /* The image used */
+    background: url(../images/banner-speciality-small.jpg) no-repeat center ;
+
+    /* Set a specific height */
+    min-height: 630px;
+	
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+			
+
+.footer {
+    background: rgb(51, 0, 30);
+    height: auto;
+    padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+}
+.social {
+    float: left;
+    margin-bottom: 0px !important;
+    margin-top: 85px !important;
+}
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+    #gallery3{
+		height: 1150px !important;
+	}
+}
+@media (min-width: 200px) and (max-width: 1000px) {
+	.purple{
+		display: none !important;
+	}
+   	#gallery3{
+		display: none !important;
+	}
+}
+@media (min-width: 200px) and (max-width: 474px) {
+.dropdown-menu {
+	    padding-bottom: 60px!important;
+		    padding-top: 10px !important;
+}
+}
+@media (min-width: 200px) and (max-width: 474px) {
+.dropdown-menu {
+	    padding-bottom: 60px!important;
+		    padding-top: 10px !important;
+}
+}
+
+@media (min-width: 200px) and (max-width: 1000px) {
+.film1	{
+		background-image: url(../images/bannerwedding.jpg);
+			
+}
+
+}
+
+@media (min-width: 200px) and (max-width: 370px) {
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: -137px;
+    margin-right: -19px;
+}
+.about3 {
+    height: 1068px !important;
+}
+}
+@media (min-width: 600px) and (max-width: 1600px) {
+.abouttextwithout{
+	display: none;
+}
+}
