@@ -493,6 +493,30 @@ body {
     .main-timeline9 .description {
         text-align: center
     }
+    .main-timeline9 .circle img{
+        max-width: 60px;
+        vertical-align: text-top;
+    }
+    .main-timeline9 .circle .sie{
+        vertical-align: super !important;
+    }
+    .var{
+        max-width: 250px !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto;
+    }
+}
+.circle{
+    cursor: pointer;
+}
+.var{
+    max-width: 465px;
+    height: auto;
+    display: block;
+}
+#modal-bg{
+    background-color:#dedede; 
 }
 
 /* ---- particles.js container ---- */

@@ -21,12 +21,12 @@
     <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/animate.css">
     <script src="js/sidenav.js"></script>
     <style>
-    .sticky-top {
-    
-    z-index: auto !important;
+        .sticky-top {
+    transition:500ms ease;
+    z-index: 1000 !important;
 }
     </style>
 </head>
@@ -59,16 +59,17 @@
 
     <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
     <div id="main">
-            <div class="title">
-                    <h3 class="mb-5 text-center">About</h3>
-                </div>
+        <div class="title">
+            <h3 class="mb-5 text-center">About</h3>
+        </div>
         <div class="d-flex justify-content-center">
-            
+
 
             <div class="main-timeline9">
                 <div class="timeline">
                     <div class="timeline-content">
-                        <div class="circle"><a href="#"><span><img src="img/varadam.png" class="animated pulse infinite"></span></a></div>
+                        <div class="circle"><span><img src="img/varadam.png" class="animated pulse infinite"
+                                    data-toggle="modal" data-target="#myModal"></span></div>
                         <div class="content">
                             <span class="year">2015 - 2016</span>
                             <h4 class="title">Media Desginer</h4>
@@ -82,13 +83,14 @@
                 </div>
                 <div class="timeline">
                     <div class="timeline-content">
-                        <div class="circle"><a href="#"><span><img src="img/sienti.png" class="animated pulse infinite"></span></a></div>
+                        <div class="circle"><span><img src="img/sienti.png" class="animated pulse infinite sie" data-toggle="modal" data-target="#myModaltwo"></span></div>
                         <div class="content">
                             <span class="year">2016 - 2018</span>
                             <h4 class="title">Web Designer</h4>
                             <p class="description">
-                                Worked as web designer in sienti solutions pvt ltd, Jobs completed: Web designing, 
-                                psd to html conversion, website redesigning, template editing, wordpress, wikipedia editing.
+                                Worked as web designer in sienti solutions pvt ltd, Jobs completed: Web designing,
+                                psd to html conversion, website redesigning, template editing, wordpress, wikipedia
+                                editing.
                             </p>
                             <div class="icon"><span></span></div>
                         </div>
@@ -96,23 +98,95 @@
                 </div>
                 <div class="timeline">
                     <div class="timeline-content">
-                        <div class="circle"><a href="#"><span><img src="img/travidux.png" class="animated pulse infinite"></span></a></div>
+                        <div class="circle"><a href="#"><span><img src="img/travidux.png" class="animated pulse infinite" data-toggle="modal" data-target="#myModalthree"></span></a></div>
                         <div class="content">
                             <span class="year">2018 - 2019</span>
                             <h4 class="title">UI Desginer</h4>
                             <p class="description">
-                                    Worked as UI designer in Travidux technologies pvt ltd, Jobs completed: Web designing, 
-                                    psd to html conversion, website redesigning, template editing, angular ionic frontend designing
+                                Worked as UI designer in Travidux technologies pvt ltd, Jobs completed: Web designing,
+                                psd to html conversion, website redesigning, template editing, angular ionic frontend
+                                designing
                             </p>
                             <div class="icon"><span></span></div>
                         </div>
                     </div>
                 </div>
-               
+
             </div>
 
         </div>
     </div>
+
+
+    <!-- The Modal one -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="modal-bg">
+
+
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                    <img src="img/vaar.jpg" class="var" alt="varadham" srcset="">
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal two -->
+    <div class="modal fade" id="myModaltwo">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" id="modal-bg">
+    
+    
+    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+    
+                        <img src="img/sien.jpg" class="var" alt="varadham" srcset="">
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal two -->
+    <div class="modal fade" id="myModalthree">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+    
+    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+    
+                        <img src="img/travid.jpg" class="var" alt="varadham" srcset="">
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+        <script>
+                // navbar background color change on scroll
+            
+                $(window).scroll(function(){
+                    var scroll = $(window).scrollTop();
+                    if(scroll < 250){
+                        $('.sticky-top').css('background', 'transparent');
+                    } else{
+                        $('.sticky-top').css('background', '#c0dfd9');
+                    }
+                });
+            
+            </script>
 
 </body>
 

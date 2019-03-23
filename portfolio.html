@@ -26,6 +26,12 @@
   
   <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
   <script src="js/waypoints.js" type="text/javascript"></script>
+  <style>
+        .sticky-top {
+    transition:500ms ease;
+    z-index: 1000 !important;
+}
+    </style>
 </head>
 
 <body>
@@ -38,7 +44,7 @@
     </div>
 
     <!-- Use any element to open the sidenav -->
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between sticky-top">
         <div class="p-2">
             <span onclick="openNav()">
                 <div class="container">
@@ -514,10 +520,19 @@
         </div>
     </div>
 
+<script>
+    // navbar background color change on scroll
 
-   
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if(scroll < 200){
+            $('.sticky-top').css('background', 'transparent');
+        } else{
+            $('.sticky-top').css('background', '#c2dde6');
+        }
+    });
 
-
+</script>
 
 </body>
 
