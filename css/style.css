@@ -803,4 +803,29 @@ body {
 .btn.btn-round {
     border-radius: 30px;
 }
+
+/* media-queries */
+@media only screen and (max-width: 670px) {
+    .header-text {
+        color: rgb(0, 0, 0);
+        font-size: 32px !important;
+        font-weight: 500 !important;
+    }
+    .rohan {
+        width: 150px;
+        height: 250px;
+        max-width: 100%;
+        display: block;
+        /* height: auto; */
+    }
+    .side-text {
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 100px;
+    }
+    .main-container{
+        margin-top: 100px;  
+    }
+}
   
