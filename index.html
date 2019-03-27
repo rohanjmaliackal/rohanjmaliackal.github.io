@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/animate.css">
     <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="js/sidenav.js"></script>
 
 </head>
@@ -37,7 +37,7 @@
 
     <!-- Use any element to open the sidenav -->
     <div class="d-flex justify-content-between">
-        <div class="p-2">
+        <div class="pr-3 pl-3 pt-3">
             <span onclick="openNav()">
                 <div class="container">
                     <div class="bar1"></div>
@@ -47,7 +47,7 @@
             </span>
         </div>
 
-        <div class="p-3">
+        <div class="pr-3 pl-3 pt-3">
             <img class="signature" src="./img/signature.png">
         </div>
     </div>
@@ -58,7 +58,7 @@
         <div id="particles-js"></div>
             <div class="d-flex justify-content-around main-container">
                 <div class="side-text">
-                    < coder >
+                    < coder />
                 </div>
 
                 <img class="rohan animated fadeInLeft" src="./img/rohan.png">
@@ -68,17 +68,42 @@
             </div>
 
             <div class="d-flex justify-content-center">
-                <div class="p-2 header-text">hey i am rohan</div>
+                <div class="p-0 header-text">hello! i'am rohan</div>
+                </div>
+            <div class="d-flex justify-content-center">
+                <h6><span class="type"></span></h6>
             </div>
-        
-
+            <div class="d-flex justify-content-between">
+                    <div class="pr-3 pl-3 pt-2">
+                            <a href="#" data-toggle="tooltip" data-placement="right" title="rohanjmaliackal@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+                    </div>
+            
+                    <div class="pr-3 pl-3 pt-2">
+                            <a href="#" data-toggle="tooltip" data-placement="left" title="9496194558"><i class="fab fa-whatsapp fa-2x"></i></i></a>
+                    </div>
+                </div>
+            
     </div>
 
     <!-- scripts -->
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
+<script src="./js/typed.js"></script>
+    <script>
+        var typed = new Typed(".type", {
+  strings: ["I have a passion for building", "modern websites","and highly-polished user experiences","to innovate and deliver."],
+  typeSpeed: 40,
+  backSpeed: 5,
+  smartBackspace: true, // Default value
+  loop: true
+});
+    </script>
 
-    
+<script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+        </script>
 
 
 </body>
