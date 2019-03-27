@@ -855,4 +855,8 @@ body {
 .fa-2x{
     color: #717880 !important;
 }
-  
+.getintouch {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
