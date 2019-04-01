@@ -20,7 +20,7 @@ body {
     background-color: #173e43;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 190px;
     text-align:center;
 }
 
@@ -827,7 +827,21 @@ body {
 .btn.btn-round {
     border-radius: 30px;
 }
-
+.fa-2x{
+    color: #717880 !important;
+}
+.getintouch {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.getintouch-two{
+    
+    width: 100%;
+}
+.fa-heart{
+    color:#49C5B6;
+}
 /* media-queries */
 @media only screen and (max-width: 670px) {
     .header-text {
@@ -851,12 +865,7 @@ body {
     .main-container{
         margin-top: 100px;  
     }
-}
-.fa-2x{
-    color: #717880 !important;
-}
-.getintouch {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    .main-timeline9:before{
+        display: none !important;
+    }
 }

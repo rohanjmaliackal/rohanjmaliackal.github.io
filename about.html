@@ -22,11 +22,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
     <script src="js/sidenav.js"></script>
     <style>
         .sticky-top {
     transition:500ms ease;
     z-index: 1000 !important;
+}
+.fa-heart{
+    color:#49C5B6;
 }
     </style>
 </head>
@@ -53,7 +57,7 @@
         </div>
 
         <div class="p-3">
-            <img class="signature" src="./img/signature.png">
+            <a href="index.html"><img class="signature" src="./img/signature.png"></a>
         </div>
     </div>
 
@@ -174,12 +178,26 @@
                 </div>
             </div>
         </div>
+<br>
+<br>
+        <div class="d-flex getintouch-two justify-content-between">
+            <div class="pr-3 pl-3 pb-2">
+                    <a href="#" data-toggle="tooltip" data-placement="right" title="rohanjmaliackal@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="pr-3 pl-3 pb-2">
+               <p>made with <span><i class="fas fa-heart animated pulse infinite"></i></span> by rohan</p> 
+            </div>
+            <div class="pr-3 pl-3 pb-2">
+                    <a href="#" data-toggle="tooltip" data-placement="left" title="+919496194558"><i class="fab fa-whatsapp fa-2x"></i></i></a>
+            </div>
+        </div>
+
         <script>
                 // navbar background color change on scroll
             
                 $(window).scroll(function(){
                     var scroll = $(window).scrollTop();
-                    if(scroll < 250){
+                    if(scroll < 150){
                         $('.sticky-top').css('background', 'transparent');
                     } else{
                         $('.sticky-top').css('background', '#c0dfd9');
@@ -187,6 +205,11 @@
                 });
             
             </script>
+            <script>
+                $(document).ready(function(){
+                  $('[data-toggle="tooltip"]').tooltip();   
+                });
+                </script>
 
 </body>
 
