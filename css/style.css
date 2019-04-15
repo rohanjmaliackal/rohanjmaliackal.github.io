@@ -89,7 +89,13 @@ body {
     max-width: 100%;
     display: block;
     height: auto;
-}
+    font-family: 'Parisienne', cursive;
+    color: rgb(33, 34, 34);
+    
+    }
+    a:hover {
+        text-decoration: transparent;
+    }
 
 .rohan {
     max-width: 100%;
